@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65.5%;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#title, #text, #history {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#title, #history {
+    width: 100%;
+}
+
+#title{
+    color: #a167bd;
+    text-shadow: black 1px 1px;
+}
+
+#text {
+    text-align: center;
+    padding: 0.5rem;
+    width: 50%;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border: black 2px double;
+}
+
+#history {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+label, #input, #button {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+#button {
+    background-color: #a167bd;
+    color: white;
+    box-shadow: black 2px 2px 2px;
+}
